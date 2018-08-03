@@ -1,0 +1,15 @@
+<template>
+<require from="bootstrap/css/bootstrap.css"></require>
+<div style = "height:50px; background-color:darkslategray">
+<button class="btn btn-secondary" style = "background-color:rgba(169, 169, 169, 0.671)">
+Home
+</button>
+<button class="btn btn-secondary" click.delegate="aboutmeClick()" style = "background-color:rgba(169, 169, 169, 0.671)">
+About Me
+</button>
+<button class="btn btn-secondary" click.delegate="ContactUs()" style = "background-color:rgba(169, 169, 169, 0.671)">
+Contact Us
+</button>
+</div>
+<router-view></router-view>
+</template>
